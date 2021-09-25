@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML form Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form id="form" class="form">
+            <h1>Sign Up</h1>
+            <div class="form-control">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Enter Username">
+                <small>Error Massege</small>
+            </div>
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter Email">
+                <small>Error Massege</small>
+            </div>
+            <div class="form-control">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter Password">
+                <small>Error Massege</small>
+            </div>
+            <div class="form-control">
+                <label for="password_1">Confirm Password</label>
+                <input type="password" id="password_1" placeholder="Enter Password Again">
+                <small>Error Massege</small>
+            </div>
+            <button class="submit">SUBMIT</button>
+    
+        </form>
+
+        <a href="../index.html">
+            <button class="home"> HOME </button>
+        </a>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
