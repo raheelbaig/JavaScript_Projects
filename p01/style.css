@@ -19,6 +19,12 @@ body {
     margin: 0;
 }
 
+.name {
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
 .container {
     background-color: #506D84;
     border-radius: 5px;
