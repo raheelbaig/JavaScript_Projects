@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 :root {
-    --success-color: limegreen;
+    --success-color: rgb(77, 153, 77);
     --error-color: orangered;
 }
 
@@ -74,7 +74,7 @@ h1 {
 }
 
 .form-control small {
-    color: var(--error-color);
+    font-weight: bold;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -87,8 +87,8 @@ h1 {
 
 .submit {
     cursor: pointer;
-    background-color: green;
-    border: 2px solid darkgreen;
+    background-color: rgb(46, 128, 46);
+    border: 2px solid rgb(46, 128, 46);
     border-radius: 5px;
     width: 100%;
     padding: 5px;
@@ -99,6 +99,8 @@ h1 {
 .home {
     cursor: pointer;
     background-color: gray;
+    border-bottom-left-radius: 5px ;
+    border-bottom-right-radius: 5px ;
     width: 100%;
     padding: 5px;
     font-size: 18px;
