@@ -111,3 +111,13 @@ h1 {
 a {
     text-decoration: none;
 }
+
+@media screen and (min-width: 455px) {
+    body {
+      margin-left: 20px;
+      margin-right: 20px;
+        
+
+
+    }
+  }
