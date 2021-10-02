@@ -1,0 +1,86 @@
+:root {
+    --primary-color: rgb(5, 60, 85);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cornsilk;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: var(--primary-color);
+    text-align: center;
+}
+
+p {
+    color: black;
+    text-align: center;
+}
+
+.btn {
+    background-color: var(--primary-color);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 0;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.money-img {
+    width: 250px;
+    border-radius: 80px;
+}
+
+.currency {
+    padding: 30px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.currency select {
+    padding: 10px 20px;
+    border: 1px solid gray;
+    font-size: 15px;
+    border-radius: 5px;    
+}
+
+.currency input {
+    padding: 10px 20px;
+    border: 0;
+    background: transparent;
+    color: black;
+    font-size: 20px;
+    text-align: right;
+    width: 150px;
+}
+
+.flip-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rate {
+    color: var(--primary-color);
+    font-size: 25px;
+    padding: 0 10px;
+}
+
+select:focus, input:focus, button:focus {
+    outline: 0;
+}
+
